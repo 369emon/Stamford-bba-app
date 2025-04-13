@@ -77,7 +77,7 @@ nav ul li a:hover {
   font-size: 2rem;
 }
 
-/* Card Styling */
+/* Card Styling (Used in Class Routine) */
 .card {
   padding: 2rem;
   border-radius: 10px;
@@ -106,7 +106,7 @@ table tr:nth-child(even) {
   background: #f4f4f9;
 }
 
-/* Animated List Styling */
+/* Animated List Styling (For Holidays) */
 .animated-list li {
   opacity: 0;
   animation: fade-in 2s ease forwards;
@@ -128,6 +128,96 @@ table tr:nth-child(even) {
 .animated-list li:nth-child(14) { animation-delay: 4.2s; }
 .animated-list li:nth-child(15) { animation-delay: 4.5s; }
 .animated-list li:nth-child(16) { animation-delay: 4.8s; }
+
+/* Newsfeed Section Styling */
+.newsfeed-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.news-item {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.news-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.news-item h3 {
+  color: #005bb5;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.news-item p {
+  color: #333;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.news-item a {
+  color: #0073e6;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.news-item a:hover {
+  color: #005bb5;
+}
+
+/* Notice Section Styling */
+.notice-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.notice-item {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.notice-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.notice-item h3 {
+  color: #005bb5;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.notice-item p {
+  color: #333;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.notice-item a {
+  color: #0073e6;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.notice-item a:hover {
+  color: #005bb5;
+}
 
 /* Footer Styling */
 footer {
